@@ -25,8 +25,6 @@ Applied to a UL tag. A list representation. When a descendant of DIV.photos (/) 
 
 Applied to a UL tag. A list representation of all birds in the collection. This element is a descendant of DIV.leftSide.
 
-
-
 *concSearch*
 
 Applied to a DIV tag. Used with the FORM tag for deploying a concatenated search with CLASS.photo-search.
@@ -55,8 +53,6 @@ Applied to a SPAN tag. As a descendant of DIV.photos, shows a representation of 
 *photo-search*
 
 Applied to FORM tag. Used with DIV.concSearch and DIV.dataSearch.  
-
-
 
 
 
@@ -108,6 +104,7 @@ Applied to a FORM tag. Denotes the name of a query. Used with DIV.concSearch and
 species*
 
 Applied to a FORM tag. Denotes a taxonomic value.
+
 
 **REL attribute values**
 

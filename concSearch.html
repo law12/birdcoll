@@ -5,22 +5,24 @@
 </head>
 <body>
 	<div class="header">
-		<a href="dataSearch.html">Search by image data</a><br />
-		<button id="btnAdd">Add resource</button>
-		<button id=btnAdd">Add resource folder</buttton>
-		<button id=btnModify">Modify resource</button>
-		<button id=btnModify">Modify resource folder</button>
+		<a rel="photos-all" href="coll.html" title="collection"><button>Collection</button></a>
+		<a rel="concSearch" href="concSearch.html"><button>Search by taxonomy</button></a>
+		<a rel="dataSearch" href="dataSearch.html"><button>Search by image data</button></a>
+		<a rel="rsrcMod" href="rsrcMod.html"><button>Add/modify resource</button></a>
 	</div>	
-	<div class="leftSide">
-		<ul id="birdList"></ul>
-	</div>
+	
+	<!-- optional elements if the program will display bottom level folders <div class="leftSide">
+		<ul class="birdList">	</ul> 
+	</div> -->
 
-	<div id="conc-search">
-	<!-- state transfer for searching a concatenation of two or more resource folders -->
-		<form method="get" action="/find" class="photo-search">
-		<input type="text" name="q" value="antidae+picidae" required="true"/>
-		<input type ="submit" value="Send" />
-		</form>
+	<div id="queries"
+		<div class="conc-search">
+		<!-- state transfer for searching a concatenation of two or more resource folders -->
+			<form method="get" action="/find" class="photo-search">
+			<input type="text" name="q" value="antidae+picidae" required="true"/>
+			<input type ="submit" value="Send" />
+			</form>
+		</div>
 	</div>
 </body>
 </html>
