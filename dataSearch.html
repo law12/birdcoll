@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Metadata Search</title>
+</head>
+<body>
+	<div class="header">
+		<a href="concSearch.html">Search by Taxonomy</a><br />
+		<button id="btnAdd">Add resource</button>
+		<button id=btnAdd">Add resource folder</buttton>
+		<button id=btnModify">Modify resource</button>
+		<button id=btnModify">Modify resource folder</button>
+	</div>	
+	
+	<div class="leftSide">
+		<ul id="birdList"></ul>
+	</div>
+
+	<div id="search">
+	<!-- state transfer for searching metadata or data sequences -->
+		<li>
+			<form method="get" action="/find" class="photo-search">
+			<input type="text" name="search" value="hummingbird+2012-09-05" required="true"/>
+			<input type ="submit" value="Send" />
+			</form>
+		</li>
+	</div>
+	
+</body>
+</html>
